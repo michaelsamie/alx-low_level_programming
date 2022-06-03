@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main-> A program that  assign a random number to the variable,
+*main- A program that  assign a random number to the variable,
 *print number stored in the variable n is positive or negative
-*The return value of 'main' is 0
+*Return: Always 0
 */
 int main(void)
 {
