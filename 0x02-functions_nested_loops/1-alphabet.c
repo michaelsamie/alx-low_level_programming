@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *main- A program that print sentence in lowercase
-*Return: Always 0
+*print_alphabet: void
 **/
 void print_alphabet(void)
 {
