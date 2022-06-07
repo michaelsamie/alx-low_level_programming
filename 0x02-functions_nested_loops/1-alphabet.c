@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-*main- A program that print sentence in lowercase
-*print_alphabet: void
+*print_alphabet - print lowercase and return void
 **/
 void print_alphabet(void)
 {
