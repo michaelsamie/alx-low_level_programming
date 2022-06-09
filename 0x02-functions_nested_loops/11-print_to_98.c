@@ -6,11 +6,13 @@
 */
 void print_to_98(int n)
 {
+	int p;
+
 	if (n >= 0)
 	{
-		for (n >= 0; n <= 98; n++)
+		for (p = p; p <= 98; p++)
 		{
-			_putchar(n);
+			_putchar(p);
 			_putchar(',');
 		}
 	}
