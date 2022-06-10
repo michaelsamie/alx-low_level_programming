@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_islower - check for lower case c
+ * *_isupper -> check for uppercase c
  * *@c : argument to deternmine return
  * *Return: return 1 and 0 depending on condintion.
  */
