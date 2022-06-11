@@ -5,5 +5,5 @@ int _isupper(int c);
 int _isdigit(int c);
 int mul(int n, int j);
 void print_numbers(void);
-
+void _putchar(char n);
 #endif /* MAIN_H */
