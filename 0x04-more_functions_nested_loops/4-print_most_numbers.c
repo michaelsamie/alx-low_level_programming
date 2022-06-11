@@ -2,7 +2,7 @@
 /**
  * *print_numbers - print numbers and  return void
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int n;
 
