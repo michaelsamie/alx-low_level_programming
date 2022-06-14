@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
  * * _strlen - count and return lenght;
  * *@s: parameter
