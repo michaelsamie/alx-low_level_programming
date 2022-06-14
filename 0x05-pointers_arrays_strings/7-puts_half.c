@@ -6,7 +6,7 @@
  * *@str : paramter
  * * Return: Always return 1
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int i, temp1, temp2;
 
