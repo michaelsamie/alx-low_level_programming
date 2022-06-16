@@ -17,7 +17,7 @@ char *leet(char *s)
 		while (c < p)
 		{
 			if (s[a] == tr[c] || s[a] - 32 == tr[c])
-				x[a] = trw[c];
+				s[a] = trw[c];
 			c++;
 		}
 		a++;
