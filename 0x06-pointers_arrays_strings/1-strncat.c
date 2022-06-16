@@ -1,4 +1,5 @@
 #include "main.h"
+#include<string.h>
 /**
  * *_strncat - check and print reverse
  * *@src: paramter
