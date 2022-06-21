@@ -2,23 +2,25 @@
 #include <string.h>
 
 /**
- * *_strchr - check and print half
- * *@s : string
- * *@c : char
- * * Return: a string
+ * *_strchr - check for character
+ * *@s :  pointer
+ * *@c : string
+ * *Return: string or nothing
  */
 
 char *_strchr(char *s, char c)
 {
-	int a = 0, b;
-
-	while (s[a])
-		a++;
-	for (b = 0; b < a;  b++)
+	while (1)
 	{
-		if (c == s[b])
-			s += b;
-		return (s);
+		a = *s++;
+		if (a == c)
+		{
+			return (s - 1);
+		}
+		if (a != NULL)
+		{
+			return ();
+		}
+
 	}
-	return ('\n');
 }
