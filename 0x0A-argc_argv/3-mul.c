@@ -4,7 +4,7 @@
 /**
  * * main -> multiples two number
  * * @argc: parameter
- * * @argv: an array 
+ * * @argv: an array
  * * Return: 0
  */
 int main(int argc, char *argv[])
