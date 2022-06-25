@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -9,29 +11,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int n, j, answer = 0;
-	int spill[] = {15, 7, 8, 3, 2};
+	int i;
 
-	if (argc != 2)
+	for (i = 0; i < argc; i++)
 	{
-		printf("%s\n", "Error");
-		return (1);
+		printf("%s\n", argv[i]);
 	}
-
-	n = atoi(argv[1]);
-	if (n < 0)
-	{
-		printf("0\n");
-		return (0);
-	}
-	for (j = 0; j < 5 && n >= 0; j++)
-	{
-		while (n >= spill[j])
-		{
-			n -= spill[j];
-			answer++;
-		}
-	}
-	printf("%d\n", answer);
 	return (0);
 }
