@@ -2,9 +2,9 @@
 
 /**
  * * create_array -  array
- * * @size: size of array 
- * * @c: character an array 
- * * Return: a pointer 
+ * * @size: size of array
+ * * @c: character an array
+ * * Return: a pointer
  */
 char *create_array(unsigned int size, char c)
 {
